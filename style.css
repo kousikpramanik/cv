@@ -7,6 +7,9 @@ h1{
   font-size: 5em;
   color: #66BFBF;
   font-weight: normal;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 0;
 }
 h2{
   font-family: 'Merriweather',sans-serif;
@@ -20,11 +23,24 @@ p{
 .top-container{
   text-align: center;
   background-color: #e3f6f5;
-  width: auto;
+  width: 100%;
   height: auto;
-  position: relative;
+  position: absolute;
   margin: 2px;
   padding-top: 50px;
   padding-bottom: 30px;
   line-height: 2;
+}
+
+.server-image{
+  position: relative;
+  width: 20%;
+  height: auto;
+  padding: 20px;
+  right: 30%;
+}
+.latop-coding{
+  max-width:100%;
+  height:auto;
+  position: relative;
 }
