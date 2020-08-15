@@ -1,0 +1,30 @@
+body{
+  background-color: #eaf6f6
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5em;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h2{
+  font-family: 'Merriweather',sans-serif;
+  color: #66BFBF;
+}
+p{
+  font-family: 'Merriweather',sans-serif;
+  color: #66BFBF;
+  font-size: 1em;
+}
+.top-container{
+  text-align: center;
+  background-color: #e3f6f5;
+  width: auto;
+  height: auto;
+  position: relative;
+  margin: 2px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  line-height: 2;
+}
