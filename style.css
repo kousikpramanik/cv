@@ -1,5 +1,5 @@
 body{
-  background-color: #eaf6f6
+  background-color: #eaf6f6;
   font-family: 'Merriweather', serif;
 }
 h1{
@@ -14,18 +14,27 @@ h1{
 h2{
   font-family: 'Merriweather',sans-serif;
   color: #66BFBF;
+  padding-top: 20px;
+}
+hr{
+  border-style: dotted;
+  border-color: pink;
+  border-width: 5px;
+  border-bottom: none;
+  margin:50px auto;
+  width: 6%;
 }
 p{
   font-family: 'Merriweather',sans-serif;
   color: #66BFBF;
   font-size: 1em;
 }
+
 .top-container{
   text-align: center;
   background-color: #e3f6f5;
   width: 100%;
   height: auto;
-  position: absolute;
   margin: 2px;
   padding-top: 50px;
   padding-bottom: 30px;
@@ -35,4 +44,36 @@ p{
   max-width:100%;
   height:auto;
   position: relative;
+}
+
+.middle-container{
+  width: auto;
+  height: auto;
+  position: relative;
+  margin: 2px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+
+}
+
+.profile{
+
+    width: 70%;
+
+  }
+.profile-image{
+
+  width: 256px;
+  height: 256px;
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+
+
+}
+
+.row{
+
+  margin-top: 100px;
 }
