@@ -11,6 +11,9 @@ if(isset($_POST['submit'])){
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
+    $headers  = "MIME-Version: 1.0\r\n";
+    $headers .= "Content-type: text/html; charset=UTF-8\r\n";
+    $headers .= "From: <".$from. ">" ;
     mail($to,$subject,$message,$headers);
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
