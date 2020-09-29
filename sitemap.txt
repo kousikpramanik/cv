@@ -2,3 +2,5 @@ https://kousikpramanik.github.io/Personal-website/
 https://kousikpramanik.github.io/Personal-website/index.html
 https://kousikpramanik.github.io/Personal-website/projects.html
 https://kousikpramanik.github.io/Personal-website/services.html
+https://kousikpramanik.github.io/Personal-website/skills.html
+https://kousikpramanik.github.io/Personal-website/contact.html
