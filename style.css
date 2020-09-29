@@ -98,4 +98,11 @@ p {
 footer{
 
   margin-top: 1%;
+  font-size: 80%;
+
+}
+.copyright{
+  text-align: center;
+  font-size: 15%;
+  color: #0f3057;
 }
