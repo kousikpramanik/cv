@@ -1,16 +1,24 @@
 <?php
+$fname = $_REQUEST['first_name'];
+$lname-$_REQUEST['last_name']
+$email = $_REQUEST['exampleInputEmail1'];
 
- if(isset($_POST['submit_btn']))
- {
-  $username = $_POST['name'];
-  $password = $_POST['exampleFormControlTextarea1'];
-  $text = $username . "," . $password . "\n";
-  $fp = fopen('data.txt', 'a+');
+$message= $_REQUEST['exampleFormControlTextarea1'];
 
-    if(fwrite($fp, $text))  {
-        echo 'saved';
+//cHECK INPUT array_count_values
+if (empty($name) || empty($email) || empty($message)) {
 
-    }
-fclose ($fp);
+  echo "Please field all the fields";
 }
-?>
+else {
+  mail("kousikpramanik539@gmail.com", "Service Request", $message, "From: $name < $email");
+  echo "<script type='text/javascript'>alert('Your message sent successfully');
+
+  window.history.log(-1);
+
+  </script>";
+}
+
+
+
+ ?>
