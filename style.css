@@ -70,15 +70,6 @@ p {
   position: relative;
 }
 
-.middle-container {
-  width: auto;
-  height: auto;
-  position: relative;
-  margin: 2px;
-  padding-bottom: 50px;
-  text-align: center;
-}
-
 .profile {
   width: 70%;
 }
@@ -105,4 +96,49 @@ footer{
   text-align: center;
   font-size: 15%;
   color: #0f3057;
+}
+hr{
+  border-style: dotted;
+  border-color: pink;
+  border-width: 5px;
+  border-bottom: none;
+  margin:50px auto;
+  width: 6%;
+}
+.skill-row{
+  width:50%;
+  margin:50px auto 50px auto;
+  text-align: center;
+  line-height: 2;
+  line-height: 150%;
+}
+.code-image{
+  width: 15%;
+  max-width:100%;
+  height:auto;
+  vertical-align: baseline;
+}
+
+.web-image{
+  width: 15%;
+  vertical-align: baseline;
+}
+
+.server-image{
+  width: 15%;
+  vertical-align: baseline;
+
+}
+.middle-container{
+  width: auto;
+  height: auto;
+  position: relative;
+  margin: 2px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: justify;
+}
+.head{
+  padding: 2px;
+  margin: 10px;
 }
