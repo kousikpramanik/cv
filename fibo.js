@@ -16,7 +16,7 @@ function fib() {
     return;
   }
 
-  if(n>=50){
+  if(n>50){
 
     document.getElementById("output").innerHTML = "Maximum Term Should Be 50";
     return;
