@@ -1,0 +1,23 @@
+.Experience{
+  margin: 0;
+  padding: 0.25em 0.25em 0.625em 0;
+  font-size: 16px;
+}
+.Experience li {
+  font-size: 16px;
+
+  padding: 10px;
+}
+
+.Experience-Description{
+  padding-top: 0.25em;
+  padding-bottom: 0.65em;
+  margin: 0;
+  font-size: 16px;
+  color: #810000;
+
+}
+h4{
+  font-size: 16px;
+
+}
