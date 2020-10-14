@@ -8,7 +8,7 @@ function fib() {
   var fib0 = 0;
   var fib1 = 1;
   var fib2;
-  var values=[0,1];
+  var values=["0 ","1 "];
 
   if (n <= 1) {
     document.getElementById("output").innerHTML = "Please Enter number grater than one";
@@ -25,7 +25,7 @@ function fib() {
 
   for (i = 2; i <= n; i++) {
     fib2 = fib0 + fib1;
-    values.push(fib2);
+    values.push(fib2 + " ");
     fib0 = fib1;
     fib1 = fib2;
   }
